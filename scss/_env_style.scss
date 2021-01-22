@@ -14,7 +14,7 @@ $glay_col: rgba(0,0,0,.24);       //灰色（枠線・背景用）
 
 body {
   font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "sans-serif";
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 
@@ -24,6 +24,8 @@ body, h1, h2, h3,h4,ul, ol, li,a,p,div,nav,figure,article,section{
 
 
 h1,h2,h3,h4,h5,h6{font-size: 100%;}
+
+
 table{
   border-collapse: collapse;/*隣り合うセルの境界線を重ねて表示*/
   border-spacing: 0;/*境界線の感覚を無くす*/
