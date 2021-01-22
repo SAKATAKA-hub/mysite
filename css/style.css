@@ -1,3 +1,36 @@
-.text{
-  color:pink;
+body {
+  background: #D8D9DC;
 }
+
+button {
+  padding: .8em 1.5em .8em 1.5em;
+  background: #fff;
+  color: pink;
+  border-color: pink;
+  border-radius: .5em;
+  box-shadow: none;
+  cursor: pointer;
+}
+button:hover {
+  background: pink;
+  color: #fff;
+  border-color: #fff;
+}
+
+.grit_container {
+  width: 900px;
+  height: 500px;
+  display: flex;
+  background-color: pink;
+}
+.grit_container .grit_main {
+  min-width: 75%;
+  flex: 3;
+  background-color: pink;
+}
+.grit_container .grit_sub1 {
+  flex: 1;
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=style.css.map */
