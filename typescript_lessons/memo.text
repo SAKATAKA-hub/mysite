@@ -1,0 +1,47 @@
+#1 TypeScriptのインストール
+    
+    // TypeScriptのプロジェクトを作りたいディレクトリを初期化する。
+    $ npm init
+    ->package.jsonファイルができる。
+
+    // TypeScriptのインストール
+    $ npm install TypeScript
+    ->node_modulesファイルが作成される
+
+
+#2 TypeScripファイルのコンパイル
+    // TypeScripのファイルを作る
+    拡張子（.ts）
+
+    // TypeScripファイルのコンパイル
+    $ npx tsc main.ts
+
+#3 変数の静的型付け
+    …変数の型を一旦決めたら、型の変更はできない
+    var x: number;
+    var x: number = 10; 数値型
+
+#4 型の種類
+    number   [数値型]
+    string   [文字列]
+    boolean  [真理値(true/false)]
+    ane      [なんでもあり]
+
+    number[] [数値型の配列]
+
+#5 列挙型
+    // 列挙型の定義
+    enum Signal{
+        Red    = 0,
+        Blue   = 1,
+        Yellow = 2,
+    }
+
+    // 列挙型を型として宣言
+    var result: Signal;
+
+    // if (result === Signal.Yellow) { ... }
+    // if (result === Signal['Yellow']) { ... }
+
+    // console.log(Signal[2]); // Yellow
+    // console.log(Signal[3]); // Blue
